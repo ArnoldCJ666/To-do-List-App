@@ -1,0 +1,86 @@
+body {
+    font-family: 'Montserrat', sans-serif;;
+    text-align: center;
+    padding: 0;
+    background-color:rgb(233, 227, 219);
+    text-decoration: none;
+    margin-top: .5rem;
+}
+
+img {
+    width: 95px;
+    height: auto;
+    margin-bottom: 0;
+}
+
+header,
+form {
+    font-size: 2rem;
+    color: darkgray;
+    margin-top: 1rem;
+}
+
+form input {
+    padding: 0.3rem;
+    font-size: 1rem;
+    border: none;
+    width: 25%;
+}
+
+form input {
+    padding: 0.3rem;
+    font-size: 1rem;
+    border: none;
+    width: 25%;
+}
+
+form input {
+    padding: 0.3rem;
+    font-size: 1rem;
+    border: none;
+    width: 25%;
+}
+
+form button {
+    padding: 0.3rem;
+    font-size: 1rem;
+    border: none;
+    width: 5%;
+    color:burlywood;
+    cursor: pointer;
+}
+
+.todo-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.todo-list {
+    list-style: none;
+    min-width: 28%;
+}
+
+.todo {
+    margin: 0.5rem;
+    background: white;
+    color: black;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 1rem;
+}
+
+.todo li {
+    flex: 1;
+}
+
+.fa-trash,
+.fa-check {
+    pointer-events: none;
+}
+
+.completed {
+    text-decoration: line-through;
+    opacity: 0.5;
+}
