@@ -6,7 +6,7 @@ Using Vanilla JavaScript to develop an interactive task management tool that’s
 
 ## Authors
 
-- [@ArnoldCJ666](https://www.github.com/octokatherine)
+- [@ArnoldCJ666](https://www.github.com/ArnoldCJ666)
 
 
 ## Appendix
